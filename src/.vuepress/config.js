@@ -27,9 +27,9 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: 'liceo-social/liceo-site',
+    repo: 'liceo-social/liceo-social.github.io',
     editLinks: true,    
-    docsDir: '',
+    docsDir: 'src',
     editLinkText: 'Editar esta pagina en Github!',
     lastUpdated: false,
     nav: [
