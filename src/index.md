@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /laptop.png
+heroImage: /logo.svg
 tagline: Gestion de proyectos sociales Open Source
 actionText: Ver Documentacion
 actionLink: /guide/
