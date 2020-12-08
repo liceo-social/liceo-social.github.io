@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Instalacion
 
 ## Manual
@@ -13,6 +17,10 @@ TODO
 ## Docker
 
 ### Docker compose
+
+TODO
+
+## Configuracion
 
 TODO
 

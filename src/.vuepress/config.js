@@ -34,32 +34,53 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Documentacion',
+        text: 'Guia',
         link: '/guide/',
       },
       {
-        text: 'Descargar',
-        link: '/downloads/'
+        text: 'Instalacion',
+        link: '/install/',
+      },
+      {
+        text: 'Desarrollo',
+        link: '/development/'
       },
     ],
     search: false,
     sidebar: {
       '/guide/': [
         {
-          title: 'Guide',
+          title: 'Guia',
           collapsable: false,
           children: [
             '',
-            'instalacion',            
             'login',
             'dashboard',
             'personas',
             'procesos',
             'documentacion',
-            'datos-maestros'
+            'datos-maestros',
           ]
         }
       ],
+      '/install': [
+        {
+          title: 'Instalacion',
+          collapsable: false,
+          children: [
+            ''
+          ]
+        }
+      ],
+      '/development': [
+        {
+          title: 'Desarrollo',
+          collapsable: false,
+          children: [
+            ''
+          ]
+        }
+      ]
     }
   },
 
