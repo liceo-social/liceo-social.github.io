@@ -10,6 +10,17 @@ En el germen desarrollo de **Liceo** han estado involucradas entidades de peque�
 
 Para instalar **Liceo** y para realizar su mantenimiento habitual (copias de seguridad, actualizaciones, etc) es necesario tener ciertos conocimientos básicos de la terminal de un entorno GNU/Linux. No obstante, una vez instalada todos los aspectos de su funcionamiento diario pueden ser gestionados a través de su interfaz gráfica.
 
+## Características
+
+- **Gestión de información personal:** Añadir, modificar y eliminar información de identificación básica de personas participantes (nombre, apellidos, domicilio, datos de contacto, etc) e información social especializada (situación laboral, profesional de referencia en atención social primaria, si posee expediente en atención social especializada, etc). 
+- **Características adaptables a tu realidad:** Personalizar las *vías de acceso de participantes*, la clasificación por *sexo* y *género* de cada persona, los *tipos de documento de identificación*, los *tipos de procesos* para adaptar la aplicación a la realidad de cada proyecto.
+- **Procesos asociados a personas:** Añadir, modificar y eliminar información de *procesos* y *tipos de procesos* de cada ficha personal (Entrevista individual, entrevista grupal/familiar, coordinación con centro educativo, coordinación con atención social primaria, trámite administrativo, etc).
+- **Gestiona expedientes únicos:** Asocia a cada persona un código de identificación único para cada persona participante dificultando la trazabilidad física de cada caso y favoreciendo la protección de datos personales.
+- **Asocia documentación a personas:** Añadir, modificar y eliminar adjuntos asociados a personas (autorizaciones, nóminas, informes, etc).
+- **Genera listados personalizados:** Aplicar filtros para generar un listado personalizado que permita el tratamiento de la información. Por ejemplo, *personas entre 19 y 35 años que pertenezcan al proyecto Búsqueda de empleo y que tengan Expediente en Atención Social Primaria*. Una vez realizado el filtro exporta tus listados en una hoja de cálculo.
+- **Asigna permisos a usuarios:** Las personas usuarias de la aplicación tendrán diferentes permisos de lectura, acceso y posibilidad de modificación de la información alojada en **Liceo**.
+
+
 ## ¿Cómo colaborar?
 
 TODO
