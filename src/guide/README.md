@@ -2,7 +2,9 @@
 
 ## ¿Qué es Liceo?
 
-El liceo, según la [Wikipedia] (https://es.wikipedia.org/wiki/Liceo_(Antigua_Grecia)), *era uno de los tres gimnasios de Atenas, un espacio dedicado al ejercicio físico y la discusión filosófica, la reflexión y el estudio*. Era el *centro de enseñanza* donde Aristóteles impartía cátedra. Bajo esa filosofía de espacio de reflexión y estudio la aplicación **Liceo** pretende ser una herramienta que facilite la tarea de gestión de la información de las personas participantes a la que se enfrentan profesionales de la intervención social y comunitaria (trabajo social, educación social, integración social, animación sociocultural...) en el desarrollo de sus proyectos.
+El liceo, según la [Wikipedia](https://es.wikipedia.org/wiki/Liceo_(Antigua_Grecia)), *era uno de los tres gimnasios de Atenas, un espacio dedicado al ejercicio físico y la discusión filosófica, la reflexión y el estudio*. Era el *centro de enseñanza* donde Aristóteles impartía cátedra. Bajo esa filosofía de espacio de reflexión y estudio la aplicación **Liceo** pretende ser una herramienta que facilite la tarea de gestión de la información de las personas participantes a la que se enfrentan profesionales de la intervención social y comunitaria (trabajo social, educación social, integración social, animación sociocultural...) en el desarrollo de sus proyectos. 
+
+**Liceo** surge como un proyecto colaborado entre varias personas en la [PIWEEK](https://piweek.com/) de [Kaleidos](https://kaleidos.net/) en diciembre de 2019. Han estado involucradas en ella personas de la propia Kaleidos, de la [Asociación Aventura 2000](http://aventura2000.org) y de la [Asociación MASI](https://somosmasi.com).
 
 **Liceo** es una aplicación destinada a ser instalada en un servidor y acceder a ella a través de cualquier navegador. Su interfaz es muy sencilla y permite poder comenzar a utilizarla en pocos minutos con unas simples nociones básicas que podrás encontrar en esta documentación.
 
@@ -20,7 +22,13 @@ Para instalar **Liceo** y para realizar su mantenimiento habitual (copias de seg
 - **Genera listados personalizados:** Aplicar filtros para generar un listado personalizado que permita el tratamiento de la información. Por ejemplo, *personas entre 19 y 35 años que pertenezcan al proyecto Búsqueda de empleo y que tengan Expediente en Atención Social Primaria*. Una vez realizado el filtro exporta tus listados en una hoja de cálculo.
 - **Asigna permisos a usuarios:** Las personas usuarias de la aplicación tendrán diferentes permisos de lectura, acceso y posibilidad de modificación de la información alojada en **Liceo**.
 
+## Demo
+
+¿Te gustaría probar **Liceo**?
+
+TODO
 
 ## ¿Cómo colaborar?
 
-TODO
+
+#
