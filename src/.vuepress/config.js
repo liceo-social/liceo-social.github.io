@@ -63,12 +63,16 @@ module.exports = {
           ]
         }
       ],
-      '/install': [
+      '/install/': [
         {
           title: 'Instalacion',
           collapsable: false,
           children: [
-            ''
+            '',
+            'docker',
+            'docker-compose',
+            'k8s-helm',
+            'manual',            
           ]
         }
       ],
