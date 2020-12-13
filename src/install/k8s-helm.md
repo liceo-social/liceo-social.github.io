@@ -4,7 +4,7 @@
 
 ### Prerequisitos
 
-Para poder desplegar Liceo en un entorno Kubernetes, hemos creado un chart de Helm. Este chart despliega una instancia de Liceo y una instancia de PostgreSQL como base de datos. 
+Para poder desplegar Liceo en un entorno Kubernetes, hemos creado un chart de Helm. Este chart despliega una instancia de Liceo y una instancia de PostgreSQL como base de datos. Esta instalacion presupone que se quiere ejecutar Helm desde una maquina locale instalar el chart de Helm en un entorno de Kubernetes remoto.
 
 Para poder utilizar este chart previamente se debe:
 
