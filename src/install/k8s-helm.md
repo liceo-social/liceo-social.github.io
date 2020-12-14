@@ -54,8 +54,6 @@ web:
     version: latest
     # lenguage por defecto que se va a ejecutar
     locale: en
-    # url en la que estara disponible Liceo 
-    host: "https://liceo-web-socseross.cloud.okteto.net"
     # datos de conexion con la base de datos
     database:
       url: "jdbc:postgresql://liceo-db:5432/liceo"
@@ -99,6 +97,5 @@ liceo.sh redeploy|list|backup-all|backup-db|backup-files
 
 - **redeploy**: puede redesplegar las instancias de Liceo web o de la base de datos
 - **list**: lista los pods que se estan ejecutando
-- **backup-all**: ejecuta el backup de la base de datos y de los ficheros de Liceo
 - **backup-db**: ejecuta el backup de la base de datos
 - **backup-files**: ejecuta el backup de los ficheros de Liceo
