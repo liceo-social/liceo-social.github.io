@@ -25,7 +25,7 @@ En unos instantes tu instancia de Liceo deberia estar disponible en [http://loca
 | DATABASE_USERNAME | Username de la base de datos               | liceo            |
 | DATABASE_PASSWORD | Password de la base de datos               | liceo            |
 | DATABASE_DRIVER_CLASSNAME | Nombre de la clase que crear las conexiones | org.h2.Driver |
-| STORAGE_PATH      | Directorio donde guardar los ficheros      | /tmp/kk          |
+| LICEO_FILES      | Directorio donde guardar los ficheros      | /tmp/kk          |
 
 *jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
 
@@ -45,3 +45,9 @@ docker run --rm -d -p 8080:8080 -e ADMIN_PASSWORD=liceopassword liceo-docker-pub
 Se pueden agregar cuantos parametros **-e** como se necesite. De todas maneras si se quiere especificar un entorno un poco mas complejo, se puede usar [Docker Compose](docker-compose.md)
 
 > Recomendamos cambiar los valores por defecto si se va a utilizar Liceo para cualquier otro proposito que no sea su simple evaluacion
+
+El valor de la variable de entorno **LICEO_FILES** tiene que corresponder con el path mapeado con la ruta del host, por ejemplo:
+
+```shell
+docker run --rm -d -p 8080:8080 -v /host/directory:/tmp/liceo -e LICEO_FILES=/tmp/liceo liceo-docker-public.bintray.io/web:latest
+```

@@ -65,7 +65,7 @@ Por defecto se ejecutara la aplicacion contra una base de datos PostgreSQL y los
 | DATABASE_USERNAME | Username de la base de datos               | liceo            |
 | DATABASE_PASSWORD | Password de la base de datos               | liceo            |
 | DATABASE_DRIVER_CLASSNAME | Nombre de la clase que crear las conexiones | org.h2.Driver |
-| STORAGE_PATH      | Directorio donde guardar los ficheros      | /tmp/kk          |
+| LICEO_FILES      | Directorio donde guardar los ficheros      | /tmp/kk          |
 
 *jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
 
@@ -76,4 +76,6 @@ El valor de `DATABASE_DRIVER_CLASSNAME` y `DATABASE_URL` varia dependiendo de la
 | H2            | org.h2.Driver             | jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE} |
 | PostgreSQL    | org.postgresql.Driver     | jdbc:postgresql://host[:puerto]/basededatos |
 
+### Ficheros
 
+El valor de la variable de entorno **LICEO_FILES** tiene que corresponder con el path mapeado con la ruta del host.
